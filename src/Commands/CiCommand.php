@@ -9,13 +9,13 @@ use CodeIgniter\CLI\CLI;
 class CiCommand extends BaseCommand
 {
 
-    protected $group = 'GenerateModeks';
+    protected $group = 'MURAVIAN';
 
-    protected $name = 'CiModelGen:publish';
+    protected $name = 'GenModel:publish';
 
     protected $description = 'Publish Models in App\Models';
 
-    protected $usage = 'CiModelGen:publish';
+    protected $usage = 'GenModel:publish';
 
     public function run(array $params) {
         $CiModelGen = new CiModelGen();
