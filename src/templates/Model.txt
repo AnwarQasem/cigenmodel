@@ -1,0 +1,28 @@
+<?php namespace App\Models;
+
+use Muravian\CiModelGen\Models\BaseModel;
+
+/**
+ * @author Anwar Subhi <anwar.subhi@gmail.com>
+ */
+class {model}Model extends BaseModel
+{
+    protected function initialize()
+    {
+        $this->setTable('{table}');
+
+        /* Apply your default settings for the model here */
+
+        $this->setUseSoftDeletes({use_soft_delete});
+        $this->setUseTimestamps({use_soft_delete});
+        $this->setAllowedFields([{allowed_fields}]);
+    }
+
+    /* Add your custom methods for the model here */
+
+//    public function custom_method(): bool
+//    {
+//        return true;
+//    }
+
+}

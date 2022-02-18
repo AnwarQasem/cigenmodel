@@ -1,0 +1,25 @@
+{
+    "name": "muravian/ci4modelgen",
+    "description": "Code generates following files in CodeIgniter 4 : models, controllers, routes.",
+    "keywords": ["codeigniter 4", "ci4", "models", "generator", "command line", "CLI"],
+    "license": "MIT",
+    "version": "2.0.0",
+    "authors": [
+        {
+            "name": "Anwar Subhi",
+            "email": "anwar.subhi@gmail.com"
+        }
+    ],
+    "type": "package",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Muravian\\CiGen\\": "src/"
+        }
+    }
+}
